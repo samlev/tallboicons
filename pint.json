@@ -1,0 +1,12 @@
+{
+  "preset": "psr12",
+  "rules": {
+    "no_unused_imports": true,
+    "array_syntax": {
+      "syntax": "short"
+    }
+  },
+  "notName": [
+    "*.svg"
+  ]
+}
