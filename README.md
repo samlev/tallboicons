@@ -23,6 +23,12 @@ Icons can be used as a self-closing Blade component or with the `@svg()` helper,
 ```
 View the blade icons [usage documentation](https://github.com/blade-ui-kit/blade-icons/#usage) for more information.
 
+### Raw SVG icons
+If you want to use the raw SVG icons as assets, you can publish them using:
+```bash
+php artisan vendor:publish --tag=blade-tallboicons --force
+```
+
 ## Contributing
 There is almost no chance that you will need to contribute to this package, but if you do, please feel free to open a 
 PR. Please don't request additional icons unless it is in aid of adding a component to the Tallboy package. Even then,
